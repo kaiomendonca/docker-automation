@@ -168,3 +168,13 @@ cython_debug/
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/flask
+
+# ambientes virtuais
+venv/
+.venv/
+venv_*/
+*/venv*/
+
+# env files (all services)
+**/.env
+**/.env.*
