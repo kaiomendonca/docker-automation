@@ -10,7 +10,7 @@ jobs:
   test-auth-service:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout de código
+      - name: Checkout de code
         uses: actions/checkout@v4
 
       - name: Configurar Python 3.12.4
